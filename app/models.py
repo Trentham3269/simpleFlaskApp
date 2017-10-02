@@ -5,7 +5,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 # Local imports
 from app import db, login_manager
 
-class Employee(UserMixin, db.Model)
+class Employee(UserMixin, db.Model):
 	"""
 	Create an Employee table
 	"""
